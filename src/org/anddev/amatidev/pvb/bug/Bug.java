@@ -1,6 +1,5 @@
 package org.anddev.amatidev.pvb.bug;
 
-import org.amatidev.util.AdEnviroment;
 import org.anddev.amatidev.pvb.MainGame;
 import org.anddev.amatidev.pvb.plant.Plant;
 import org.anddev.amatidev.pvb.plant.PlantMelon;
@@ -10,14 +9,15 @@ import org.anddev.andengine.engine.handler.timer.ITimerCallback;
 import org.anddev.andengine.engine.handler.timer.TimerHandler;
 import org.anddev.andengine.entity.Entity;
 import org.anddev.andengine.entity.IEntity;
-import org.anddev.andengine.entity.modifier.PathModifier;
 import org.anddev.andengine.entity.modifier.IEntityModifier.IEntityModifierListener;
+import org.anddev.andengine.entity.modifier.PathModifier;
 import org.anddev.andengine.entity.modifier.PathModifier.Path;
 import org.anddev.andengine.entity.shape.IShape;
 import org.anddev.andengine.entity.sprite.Sprite;
 import org.anddev.andengine.opengl.texture.region.TextureRegion;
 import org.anddev.andengine.util.SimplePreferences;
 import org.anddev.andengine.util.modifier.IModifier;
+import org.loon.anddev.utils.AdEnviroment;
 
 import android.util.Log;
 

@@ -1,11 +1,11 @@
 package org.anddev.amatidev.pvb.obj;
 
-import org.amatidev.util.AdEnviroment;
 import org.anddev.amatidev.pvb.card.Card;
 import org.anddev.amatidev.pvb.singleton.GameData;
 import org.anddev.andengine.entity.modifier.ScaleModifier;
 import org.anddev.andengine.entity.sprite.Sprite;
 import org.anddev.andengine.entity.text.Text;
+import org.loon.anddev.utils.AdEnviroment;
 
 public class Dialog extends Sprite {
 

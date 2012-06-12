@@ -2,9 +2,6 @@ package org.anddev.amatidev.pvb;
 
 import java.util.LinkedList;
 
-import org.amatidev.scene.AdScene;
-import org.amatidev.util.AdEnviroment;
-import org.amatidev.util.AdPrefs;
 import org.anddev.amatidev.pvb.bug.Bug;
 import org.anddev.amatidev.pvb.bug.BugBeetle;
 import org.anddev.amatidev.pvb.bug.BugCaterpillar;
@@ -29,11 +26,10 @@ import org.anddev.andengine.entity.sprite.Sprite;
 import org.anddev.andengine.input.touch.TouchEvent;
 import org.anddev.andengine.util.MathUtils;
 import org.anddev.andengine.util.SimplePreferences;
+import org.loon.anddev.utils.AdEnviroment;
+import org.loon.anddev.utils.AdPrefs;
+import org.loon.anddev.utils.AdScene;
 
-import android.app.Activity;
-
-import com.openfeint.api.resource.Leaderboard;
-import com.openfeint.api.resource.Score;
 
 public class MainGame extends AdScene {
 
@@ -203,7 +199,7 @@ public class MainGame extends AdScene {
 			}));
 			
 			this.mGameOver = true;
-			
+			/*
 			try {
 				Score s = new Score(GameData.getInstance().mMyScore.getScore());
 				Leaderboard l = new Leaderboard(AdEnviroment.getInstance().getContext().getString(R.string.score));
@@ -234,7 +230,7 @@ public class MainGame extends AdScene {
 				});
 			} catch (Exception e) {
 				
-			}
+			}*/
 		}
 	}
 
@@ -391,6 +387,12 @@ public class MainGame extends AdScene {
 	}
 
 	@Override
+	public void manageSceneTouch(TouchEvent pSceneTouchEvent) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
 	public void downSceneTouch(TouchEvent pSceneTouchEvent) {
 		// TODO Auto-generated method stub
 		
@@ -407,5 +409,6 @@ public class MainGame extends AdScene {
 		// TODO Auto-generated method stub
 		
 	}
+
 	
 }

@@ -1,9 +1,9 @@
 package org.anddev.amatidev.pvb;
 
-import org.amatidev.menu.AdMenuScene;
-import org.amatidev.util.AdEnviroment;
 import org.anddev.amatidev.pvb.singleton.GameData;
 import org.anddev.andengine.opengl.font.Font;
+import org.loon.anddev.utils.AdEnviroment;
+import org.loon.anddev.utils.AdMenuScene;
 
 public class GameMenu extends AdMenuScene {
 	

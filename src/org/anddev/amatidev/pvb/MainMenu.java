@@ -1,25 +1,23 @@
 package org.anddev.amatidev.pvb;
 
-import org.amatidev.scene.AdScene;
-import org.amatidev.util.AdEnviroment;
-import org.amatidev.util.AdPrefs;
 import org.anddev.amatidev.pvb.singleton.GameData;
 import org.anddev.andengine.entity.IEntity;
+import org.anddev.andengine.entity.modifier.IEntityModifier.IEntityModifierListener;
 import org.anddev.andengine.entity.modifier.LoopEntityModifier;
 import org.anddev.andengine.entity.modifier.ScaleModifier;
 import org.anddev.andengine.entity.modifier.SequenceEntityModifier;
-import org.anddev.andengine.entity.modifier.IEntityModifier.IEntityModifierListener;
 import org.anddev.andengine.entity.scene.menu.MenuScene;
 import org.anddev.andengine.entity.sprite.Sprite;
 import org.anddev.andengine.entity.text.Text;
 import org.anddev.andengine.input.touch.TouchEvent;
 import org.anddev.andengine.util.modifier.IModifier;
+import org.loon.anddev.utils.AdEnviroment;
+import org.loon.anddev.utils.AdPrefs;
+import org.loon.anddev.utils.AdScene;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
-
-import com.openfeint.api.ui.Dashboard;
 
 public class MainMenu extends AdScene {
 	
@@ -141,10 +139,10 @@ public class MainMenu extends AdScene {
 				} catch (ActivityNotFoundException e) {
 				}
 			} else {
-				try {
+				/*try {
 					Dashboard.open();
 				} catch (Exception e) {
-				}
+				}*/
 			}
 		}
 	}
@@ -168,6 +166,12 @@ public class MainMenu extends AdScene {
 
 	@Override
 	public void upSceneTouch(TouchEvent pSceneTouchEvent) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void manageSceneTouch(TouchEvent pSceneTouchEvent) {
 		// TODO Auto-generated method stub
 		
 	}

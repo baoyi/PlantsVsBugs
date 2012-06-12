@@ -2,8 +2,6 @@ package org.anddev.amatidev.pvb;
 
 import java.util.LinkedList;
 
-import org.amatidev.util.AdEnviroment;
-import org.amatidev.util.AdPrefs;
 import org.anddev.amatidev.pvb.bug.BugBeetle;
 import org.anddev.amatidev.pvb.card.Card;
 import org.anddev.amatidev.pvb.card.CardTomato;
@@ -19,6 +17,8 @@ import org.anddev.andengine.entity.modifier.SequenceEntityModifier;
 import org.anddev.andengine.entity.primitive.Rectangle;
 import org.anddev.andengine.entity.sprite.Sprite;
 import org.anddev.andengine.entity.text.Text;
+import org.loon.anddev.utils.AdEnviroment;
+import org.loon.anddev.utils.AdPrefs;
 
 public class Tutorial extends MainGame {
 

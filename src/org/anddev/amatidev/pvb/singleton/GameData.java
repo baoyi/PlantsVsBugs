@@ -2,14 +2,14 @@ package org.anddev.amatidev.pvb.singleton;
 
 import java.util.LinkedList;
 
-import org.amatidev.text.AdTextScoring;
-import org.amatidev.util.AdResourceLoader;
-import org.amatidev.util.AdSound;
 import org.anddev.amatidev.pvb.card.Card;
 import org.anddev.andengine.opengl.font.Font;
 import org.anddev.andengine.opengl.texture.region.TextureRegion;
 import org.anddev.andengine.opengl.texture.region.TiledTextureRegion;
 import org.anddev.andengine.util.HorizontalAlign;
+import org.loon.anddev.utils.AdResourceLoader;
+import org.loon.anddev.utils.AdSound;
+import org.loon.anddev.utils.AdTextScoring;
 
 import android.graphics.Color;
 
